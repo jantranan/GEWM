@@ -69,6 +69,13 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class_login.vb" />
+    <Compile Include="Frm_login.Designer.vb">
+      <DependentUpon>Frm_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frm_main.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -91,8 +98,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="MyConnection.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Frm_login.resx">
+      <DependentUpon>Frm_login.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_main.resx">
       <DependentUpon>Frm_main.vb</DependentUpon>
     </EmbeddedResource>

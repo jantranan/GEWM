@@ -10,3 +10,4 @@ E:\CAMT CMU\IS\GEWM\GEWM\GEWM\obj\x86\Debug\GEWM.exe
 E:\CAMT CMU\IS\GEWM\GEWM\GEWM\obj\x86\Debug\GEWM.xml
 E:\CAMT CMU\IS\GEWM\GEWM\GEWM\obj\x86\Debug\GEWM.pdb
 E:\CAMT CMU\IS\GEWM\GEWM\GEWM\obj\x86\Debug\GEWM.Frm_main.resources
+E:\CAMT CMU\IS\GEWM\GEWM\GEWM\obj\x86\Debug\GEWM.Frm_login.resources

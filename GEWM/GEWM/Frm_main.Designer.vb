@@ -29,8 +29,13 @@ Partial Class Frm_main
         Me.RibbonQat1 = New C1.Win.C1Ribbon.RibbonQat()
         Me.RibbonTab1 = New C1.Win.C1Ribbon.RibbonTab()
         Me.RibbonGroup1 = New C1.Win.C1Ribbon.RibbonGroup()
+        Me.RibbonButton1 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton2 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton3 = New C1.Win.C1Ribbon.RibbonButton()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabelStatus = New System.Windows.Forms.ToolStripStatusLabel()
         CType(Me.C1Ribbon1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'C1Ribbon1
@@ -63,16 +68,47 @@ Partial Class Frm_main
         '
         'RibbonGroup1
         '
+        Me.RibbonGroup1.Items.Add(Me.RibbonButton1)
+        Me.RibbonGroup1.Items.Add(Me.RibbonButton2)
+        Me.RibbonGroup1.Items.Add(Me.RibbonButton3)
         Me.RibbonGroup1.Name = "RibbonGroup1"
         Me.RibbonGroup1.Text = "Group"
         '
+        'RibbonButton1
+        '
+        Me.RibbonButton1.LargeImage = CType(resources.GetObject("RibbonButton1.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton1.Name = "RibbonButton1"
+        Me.RibbonButton1.SmallImage = CType(resources.GetObject("RibbonButton1.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton1.Text = "Button"
+        '
+        'RibbonButton2
+        '
+        Me.RibbonButton2.LargeImage = CType(resources.GetObject("RibbonButton2.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton2.Name = "RibbonButton2"
+        Me.RibbonButton2.SmallImage = CType(resources.GetObject("RibbonButton2.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton2.Text = "Button"
+        '
+        'RibbonButton3
+        '
+        Me.RibbonButton3.LargeImage = CType(resources.GetObject("RibbonButton3.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton3.Name = "RibbonButton3"
+        Me.RibbonButton3.SmallImage = CType(resources.GetObject("RibbonButton3.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton3.Text = "Button"
+        '
         'StatusStrip1
         '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabelStatus})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 367)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(704, 22)
         Me.StatusStrip1.TabIndex = 2
         Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'ToolStripStatusLabelStatus
+        '
+        Me.ToolStripStatusLabelStatus.Name = "ToolStripStatusLabelStatus"
+        Me.ToolStripStatusLabelStatus.Size = New System.Drawing.Size(147, 17)
+        Me.ToolStripStatusLabelStatus.Text = "ToolStripStatusLabelStatus"
         '
         'Frm_main
         '
@@ -86,9 +122,12 @@ Partial Class Frm_main
         Me.IsMdiContainer = True
         Me.MaximizeBox = False
         Me.Name = "Frm_main"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ระบบบริหารกรอบอัตรากำลังลูกจ้างภาครัฐ กรณีศึกษาสำนักงานการตรวจเงินแผ่นดิน"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.C1Ribbon1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -100,5 +139,9 @@ Partial Class Frm_main
     Friend WithEvents RibbonTab1 As C1.Win.C1Ribbon.RibbonTab
     Friend WithEvents RibbonGroup1 As C1.Win.C1Ribbon.RibbonGroup
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
+    Friend WithEvents RibbonButton1 As C1.Win.C1Ribbon.RibbonButton
+    Friend WithEvents RibbonButton2 As C1.Win.C1Ribbon.RibbonButton
+    Friend WithEvents RibbonButton3 As C1.Win.C1Ribbon.RibbonButton
+    Friend WithEvents ToolStripStatusLabelStatus As System.Windows.Forms.ToolStripStatusLabel
 
 End Class
