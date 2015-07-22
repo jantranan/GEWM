@@ -225,7 +225,7 @@ Partial Class Frm_main
         Me.RibbonGroup3.Items.Add(Me.RibbonButton6)
         Me.RibbonGroup3.Items.Add(Me.RibbonButton7)
         Me.RibbonGroup3.Name = "RibbonGroup3"
-        Me.RibbonGroup3.Text = "บริหารกรอบอัตรากำลัง"
+        Me.RibbonGroup3.Text = "การบริหารกรอบอัตรากำลัง"
         '
         'RibbonButton6
         '
