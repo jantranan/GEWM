@@ -28,10 +28,22 @@ Partial Class Frm_main
         Me.RibbonConfigToolBar1 = New C1.Win.C1Ribbon.RibbonConfigToolBar()
         Me.RibbonQat1 = New C1.Win.C1Ribbon.RibbonQat()
         Me.RibbonTab1 = New C1.Win.C1Ribbon.RibbonTab()
+        Me.RibbonGroup4 = New C1.Win.C1Ribbon.RibbonGroup()
+        Me.RibbonButton8 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton9 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonGroup3 = New C1.Win.C1Ribbon.RibbonGroup()
+        Me.RibbonButton6 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton7 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonGroup2 = New C1.Win.C1Ribbon.RibbonGroup()
+        Me.RibbonButton1 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton4 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton5 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton11 = New C1.Win.C1Ribbon.RibbonButton()
         Me.RibbonGroup1 = New C1.Win.C1Ribbon.RibbonGroup()
         Me.Btn_officer = New C1.Win.C1Ribbon.RibbonButton()
         Me.RibbonButton2 = New C1.Win.C1Ribbon.RibbonButton()
         Me.RibbonButton3 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton10 = New C1.Win.C1Ribbon.RibbonButton()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabelStatus = New System.Windows.Forms.ToolStripStatusLabel()
         Me.NavBarControl1 = New DevExpress.XtraNavBar.NavBarControl()
@@ -41,18 +53,7 @@ Partial Class Frm_main
         Me.NavBarItem3 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem4 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem_exit = New DevExpress.XtraNavBar.NavBarItem()
-        Me.RibbonGroup2 = New C1.Win.C1Ribbon.RibbonGroup()
-        Me.RibbonButton1 = New C1.Win.C1Ribbon.RibbonButton()
-        Me.RibbonButton4 = New C1.Win.C1Ribbon.RibbonButton()
-        Me.RibbonButton5 = New C1.Win.C1Ribbon.RibbonButton()
-        Me.RibbonGroup3 = New C1.Win.C1Ribbon.RibbonGroup()
-        Me.RibbonButton6 = New C1.Win.C1Ribbon.RibbonButton()
-        Me.RibbonButton7 = New C1.Win.C1Ribbon.RibbonButton()
-        Me.RibbonGroup4 = New C1.Win.C1Ribbon.RibbonGroup()
-        Me.RibbonButton8 = New C1.Win.C1Ribbon.RibbonButton()
-        Me.RibbonButton9 = New C1.Win.C1Ribbon.RibbonButton()
-        Me.RibbonButton10 = New C1.Win.C1Ribbon.RibbonButton()
-        Me.RibbonButton11 = New C1.Win.C1Ribbon.RibbonButton()
+        Me.RibbonButton12 = New C1.Win.C1Ribbon.RibbonButton()
         CType(Me.C1Ribbon1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.StatusStrip1.SuspendLayout()
         CType(Me.NavBarControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,6 +90,86 @@ Partial Class Frm_main
         Me.RibbonTab1.Name = "RibbonTab1"
         Me.RibbonTab1.Text = "การจัดการ"
         '
+        'RibbonGroup4
+        '
+        Me.RibbonGroup4.Items.Add(Me.RibbonButton8)
+        Me.RibbonGroup4.Items.Add(Me.RibbonButton9)
+        Me.RibbonGroup4.Name = "RibbonGroup4"
+        Me.RibbonGroup4.Text = "ข้อมูลลูกจ้าง"
+        '
+        'RibbonButton8
+        '
+        Me.RibbonButton8.LargeImage = CType(resources.GetObject("RibbonButton8.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton8.Name = "RibbonButton8"
+        Me.RibbonButton8.SmallImage = CType(resources.GetObject("RibbonButton8.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton8.Text = "ลูกจ้างชั่วคราว"
+        '
+        'RibbonButton9
+        '
+        Me.RibbonButton9.LargeImage = CType(resources.GetObject("RibbonButton9.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton9.Name = "RibbonButton9"
+        Me.RibbonButton9.SmallImage = CType(resources.GetObject("RibbonButton9.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton9.Text = "ลูกจ้างสมทบ"
+        '
+        'RibbonGroup3
+        '
+        Me.RibbonGroup3.Items.Add(Me.RibbonButton6)
+        Me.RibbonGroup3.Items.Add(Me.RibbonButton12)
+        Me.RibbonGroup3.Items.Add(Me.RibbonButton7)
+        Me.RibbonGroup3.Name = "RibbonGroup3"
+        Me.RibbonGroup3.Text = "การบริหารกรอบอัตรากำลัง"
+        '
+        'RibbonButton6
+        '
+        Me.RibbonButton6.LargeImage = CType(resources.GetObject("RibbonButton6.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton6.Name = "RibbonButton6"
+        Me.RibbonButton6.SmallImage = CType(resources.GetObject("RibbonButton6.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton6.Text = "Button"
+        '
+        'RibbonButton7
+        '
+        Me.RibbonButton7.LargeImage = CType(resources.GetObject("RibbonButton7.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton7.Name = "RibbonButton7"
+        Me.RibbonButton7.SmallImage = CType(resources.GetObject("RibbonButton7.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton7.Text = "กรอบ ลจ. สมทบ"
+        '
+        'RibbonGroup2
+        '
+        Me.RibbonGroup2.Items.Add(Me.RibbonButton1)
+        Me.RibbonGroup2.Items.Add(Me.RibbonButton4)
+        Me.RibbonGroup2.Items.Add(Me.RibbonButton5)
+        Me.RibbonGroup2.Items.Add(Me.RibbonButton11)
+        Me.RibbonGroup2.Name = "RibbonGroup2"
+        Me.RibbonGroup2.Text = "รายงาน"
+        '
+        'RibbonButton1
+        '
+        Me.RibbonButton1.LargeImage = CType(resources.GetObject("RibbonButton1.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton1.Name = "RibbonButton1"
+        Me.RibbonButton1.SmallImage = CType(resources.GetObject("RibbonButton1.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton1.Text = "Button"
+        '
+        'RibbonButton4
+        '
+        Me.RibbonButton4.LargeImage = CType(resources.GetObject("RibbonButton4.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton4.Name = "RibbonButton4"
+        Me.RibbonButton4.SmallImage = CType(resources.GetObject("RibbonButton4.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton4.Text = "Button"
+        '
+        'RibbonButton5
+        '
+        Me.RibbonButton5.LargeImage = CType(resources.GetObject("RibbonButton5.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton5.Name = "RibbonButton5"
+        Me.RibbonButton5.SmallImage = CType(resources.GetObject("RibbonButton5.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton5.Text = "Button"
+        '
+        'RibbonButton11
+        '
+        Me.RibbonButton11.LargeImage = CType(resources.GetObject("RibbonButton11.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton11.Name = "RibbonButton11"
+        Me.RibbonButton11.SmallImage = CType(resources.GetObject("RibbonButton11.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton11.Text = "ประวัติการใช้งาน"
+        '
         'RibbonGroup1
         '
         Me.RibbonGroup1.Items.Add(Me.Btn_officer)
@@ -118,6 +199,13 @@ Partial Class Frm_main
         Me.RibbonButton3.Name = "RibbonButton3"
         Me.RibbonButton3.SmallImage = CType(resources.GetObject("RibbonButton3.SmallImage"), System.Drawing.Image)
         Me.RibbonButton3.Text = "เพิ่มเติม"
+        '
+        'RibbonButton10
+        '
+        Me.RibbonButton10.LargeImage = CType(resources.GetObject("RibbonButton10.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton10.Name = "RibbonButton10"
+        Me.RibbonButton10.SmallImage = CType(resources.GetObject("RibbonButton10.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton10.Text = "เกี่ยวกับระบบ"
         '
         'StatusStrip1
         '
@@ -190,91 +278,12 @@ Partial Class Frm_main
         Me.NavBarItem_exit.LargeImage = CType(resources.GetObject("NavBarItem_exit.LargeImage"), System.Drawing.Image)
         Me.NavBarItem_exit.Name = "NavBarItem_exit"
         '
-        'RibbonGroup2
+        'RibbonButton12
         '
-        Me.RibbonGroup2.Items.Add(Me.RibbonButton1)
-        Me.RibbonGroup2.Items.Add(Me.RibbonButton4)
-        Me.RibbonGroup2.Items.Add(Me.RibbonButton5)
-        Me.RibbonGroup2.Items.Add(Me.RibbonButton11)
-        Me.RibbonGroup2.Name = "RibbonGroup2"
-        Me.RibbonGroup2.Text = "รายงาน"
-        '
-        'RibbonButton1
-        '
-        Me.RibbonButton1.LargeImage = CType(resources.GetObject("RibbonButton1.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton1.Name = "RibbonButton1"
-        Me.RibbonButton1.SmallImage = CType(resources.GetObject("RibbonButton1.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton1.Text = "Button"
-        '
-        'RibbonButton4
-        '
-        Me.RibbonButton4.LargeImage = CType(resources.GetObject("RibbonButton4.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton4.Name = "RibbonButton4"
-        Me.RibbonButton4.SmallImage = CType(resources.GetObject("RibbonButton4.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton4.Text = "Button"
-        '
-        'RibbonButton5
-        '
-        Me.RibbonButton5.LargeImage = CType(resources.GetObject("RibbonButton5.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton5.Name = "RibbonButton5"
-        Me.RibbonButton5.SmallImage = CType(resources.GetObject("RibbonButton5.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton5.Text = "Button"
-        '
-        'RibbonGroup3
-        '
-        Me.RibbonGroup3.Items.Add(Me.RibbonButton6)
-        Me.RibbonGroup3.Items.Add(Me.RibbonButton7)
-        Me.RibbonGroup3.Name = "RibbonGroup3"
-        Me.RibbonGroup3.Text = "การบริหารกรอบอัตรากำลัง"
-        '
-        'RibbonButton6
-        '
-        Me.RibbonButton6.LargeImage = CType(resources.GetObject("RibbonButton6.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton6.Name = "RibbonButton6"
-        Me.RibbonButton6.SmallImage = CType(resources.GetObject("RibbonButton6.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton6.Text = "Button"
-        '
-        'RibbonButton7
-        '
-        Me.RibbonButton7.LargeImage = CType(resources.GetObject("RibbonButton7.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton7.Name = "RibbonButton7"
-        Me.RibbonButton7.SmallImage = CType(resources.GetObject("RibbonButton7.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton7.Text = "Button"
-        '
-        'RibbonGroup4
-        '
-        Me.RibbonGroup4.Items.Add(Me.RibbonButton8)
-        Me.RibbonGroup4.Items.Add(Me.RibbonButton9)
-        Me.RibbonGroup4.Name = "RibbonGroup4"
-        Me.RibbonGroup4.Text = "ข้อมูลลูกจ้าง"
-        '
-        'RibbonButton8
-        '
-        Me.RibbonButton8.LargeImage = CType(resources.GetObject("RibbonButton8.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton8.Name = "RibbonButton8"
-        Me.RibbonButton8.SmallImage = CType(resources.GetObject("RibbonButton8.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton8.Text = "ลูกจ้างชั่วคราว"
-        '
-        'RibbonButton9
-        '
-        Me.RibbonButton9.LargeImage = CType(resources.GetObject("RibbonButton9.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton9.Name = "RibbonButton9"
-        Me.RibbonButton9.SmallImage = CType(resources.GetObject("RibbonButton9.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton9.Text = "ลูกจ้างสมทบตรวจเงินแผ่นดิน"
-        '
-        'RibbonButton10
-        '
-        Me.RibbonButton10.LargeImage = CType(resources.GetObject("RibbonButton10.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton10.Name = "RibbonButton10"
-        Me.RibbonButton10.SmallImage = CType(resources.GetObject("RibbonButton10.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton10.Text = "เกี่ยวกับระบบ"
-        '
-        'RibbonButton11
-        '
-        Me.RibbonButton11.LargeImage = CType(resources.GetObject("RibbonButton11.LargeImage"), System.Drawing.Image)
-        Me.RibbonButton11.Name = "RibbonButton11"
-        Me.RibbonButton11.SmallImage = CType(resources.GetObject("RibbonButton11.SmallImage"), System.Drawing.Image)
-        Me.RibbonButton11.Text = "ประวัติการใช้งาน"
+        Me.RibbonButton12.LargeImage = CType(resources.GetObject("RibbonButton12.LargeImage"), System.Drawing.Image)
+        Me.RibbonButton12.Name = "RibbonButton12"
+        Me.RibbonButton12.SmallImage = CType(resources.GetObject("RibbonButton12.SmallImage"), System.Drawing.Image)
+        Me.RibbonButton12.Text = "กรอบ ลจ. ชั่วคราว"
         '
         'Frm_main
         '
@@ -330,5 +339,6 @@ Partial Class Frm_main
     Friend WithEvents RibbonButton9 As C1.Win.C1Ribbon.RibbonButton
     Friend WithEvents RibbonButton10 As C1.Win.C1Ribbon.RibbonButton
     Friend WithEvents RibbonButton11 As C1.Win.C1Ribbon.RibbonButton
+    Friend WithEvents RibbonButton12 As C1.Win.C1Ribbon.RibbonButton
 
 End Class
